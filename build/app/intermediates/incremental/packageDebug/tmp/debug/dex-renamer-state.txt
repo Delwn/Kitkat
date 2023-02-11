@@ -1,0 +1,4 @@
+#Sat Dec 31 13:01:02 IST 2022
+base.0=G\:\\Codes\\Flutter\\kitkat\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

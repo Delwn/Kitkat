@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "G:\\Codes\\Flutter\\kitkat\\build\\path_provider_android\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-in\\values-in.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Delwin\\.gradle\\caches\\transforms-3\\5264d26c79b969439047c01ebd43e312\\transformed\\core-1.6.0\\res\\values-in\\values-in.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "G:\\Codes\\Flutter\\kitkat\\build\\path_provider_android\\intermediates\\res\\merged\\debug\\values-in\\values-in.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Delwin\\.gradle\\caches\\transforms-3\\5264d26c79b969439047c01ebd43e312\\transformed\\core-1.6.0\\res\\values-in\\values-in.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "G:\\Codes\\Flutter\\kitkat\\build\\path_provider_android\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\Delwin\\.gradle\\caches\\transforms-3\\5264d26c79b969439047c01ebd43e312\\transformed\\core-1.6.0\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "G:\\Codes\\Flutter\\kitkat\\build\\path_provider_android\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\Delwin\\.gradle\\caches\\transforms-3\\5264d26c79b969439047c01ebd43e312\\transformed\\core-1.6.0\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "G:\\Codes\\Flutter\\kitkat\\build\\path_provider_android\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\Delwin\\.gradle\\caches\\transforms-3\\5264d26c79b969439047c01ebd43e312\\transformed\\core-1.6.0\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "G:\\Codes\\Flutter\\kitkat\\build\\path_provider_android\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\Delwin\\.gradle\\caches\\transforms-3\\5264d26c79b969439047c01ebd43e312\\transformed\\core-1.6.0\\res\\drawable\\notification_bg_low.xml"
+    }
+]

@@ -1,0 +1,94 @@
+[
+    {
+        "merged": "com.example.kitkat.app-merged_res-19:/mipmap-mdpi_kitkat.png.flat",
+        "source": "com.example.kitkat.app-main-12:/mipmap-mdpi/kitkat.png"
+    },
+    {
+        "merged": "C:\\Users\\Delwin\\.gradle\\daemon\\7.5\\com.example.kitkat.app-merged_res-19:\\drawable_kitkat_img.png.flat",
+        "source": "C:\\Users\\Delwin\\.gradle\\daemon\\7.5\\com.example.kitkat.app-main-12:\\drawable\\kitkat_img.png"
+    },
+    {
+        "merged": "C:\\Users\\Delwin\\.gradle\\daemon\\7.5\\com.example.kitkat.app-merged_res-19:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Delwin\\.gradle\\daemon\\7.5\\com.example.kitkat.app-main-12:\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Delwin\\.gradle\\daemon\\7.5\\com.example.kitkat.app-merged_res-19:\\drawable-mdpi_kitkat_img.png.flat",
+        "source": "C:\\Users\\Delwin\\.gradle\\daemon\\7.5\\com.example.kitkat.app-main-12:\\drawable-mdpi\\kitkat_img.png"
+    },
+    {
+        "merged": "C:\\Users\\Delwin\\.gradle\\daemon\\7.5\\com.example.kitkat.app-merged_res-19:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Delwin\\.gradle\\daemon\\7.5\\com.example.kitkat.app-main-12:\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Delwin\\.gradle\\daemon\\7.5\\com.example.kitkat.app-merged_res-19:\\mipmap-xhdpi_kitkat.png.flat",
+        "source": "C:\\Users\\Delwin\\.gradle\\daemon\\7.5\\com.example.kitkat.app-main-12:\\mipmap-xhdpi\\kitkat.png"
+    },
+    {
+        "merged": "C:\\Users\\Delwin\\.gradle\\daemon\\7.5\\com.example.kitkat.app-merged_res-19:\\drawable-xxhdpi_kitkat_img.png.flat",
+        "source": "C:\\Users\\Delwin\\.gradle\\daemon\\7.5\\com.example.kitkat.app-main-12:\\drawable-xxhdpi\\kitkat_img.png"
+    },
+    {
+        "merged": "C:\\Users\\Delwin\\.gradle\\daemon\\7.5\\com.example.kitkat.app-merged_res-19:\\drawable_launch_background.xml.flat",
+        "source": "C:\\Users\\Delwin\\.gradle\\daemon\\7.5\\com.example.kitkat.app-main-12:\\drawable\\launch_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Delwin\\.gradle\\daemon\\7.5\\com.example.kitkat.app-merged_res-19:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Delwin\\.gradle\\daemon\\7.5\\com.example.kitkat.app-main-12:\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Delwin\\.gradle\\daemon\\7.5\\com.example.kitkat.app-merged_res-19:\\mipmap-mdpi_kitkat.png.flat",
+        "source": "C:\\Users\\Delwin\\.gradle\\daemon\\7.5\\com.example.kitkat.app-main-12:\\mipmap-mdpi\\kitkat.png"
+    },
+    {
+        "merged": "C:\\Users\\Delwin\\.gradle\\daemon\\7.5\\com.example.kitkat.app-merged_res-19:\\mipmap-hdpi_kitkat.png.flat",
+        "source": "C:\\Users\\Delwin\\.gradle\\daemon\\7.5\\com.example.kitkat.app-main-12:\\mipmap-hdpi\\kitkat.png"
+    },
+    {
+        "merged": "C:\\Users\\Delwin\\.gradle\\daemon\\7.5\\com.example.kitkat.app-merged_res-19:\\drawable-v21_launch_background.xml.flat",
+        "source": "C:\\Users\\Delwin\\.gradle\\daemon\\7.5\\com.example.kitkat.app-main-12:\\drawable-v21\\launch_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Delwin\\.gradle\\daemon\\7.5\\com.example.kitkat.app-merged_res-19:\\drawable-hdpi_kitkat_img.png.flat",
+        "source": "C:\\Users\\Delwin\\.gradle\\daemon\\7.5\\com.example.kitkat.app-main-12:\\drawable-hdpi\\kitkat_img.png"
+    },
+    {
+        "merged": "C:\\Users\\Delwin\\.gradle\\daemon\\7.5\\com.example.kitkat.app-merged_res-19:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Delwin\\.gradle\\daemon\\7.5\\com.example.kitkat.app-main-12:\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "com.example.kitkat.app-merged_res-19:/mipmap-xxxhdpi_kitkat.png.flat",
+        "source": "com.example.kitkat.app-main-12:/mipmap-xxxhdpi/kitkat.png"
+    },
+    {
+        "merged": "C:\\Users\\Delwin\\.gradle\\daemon\\7.5\\com.example.kitkat.app-merged_res-19:\\mipmap-xxhdpi_kitkat.png.flat",
+        "source": "C:\\Users\\Delwin\\.gradle\\daemon\\7.5\\com.example.kitkat.app-main-12:\\mipmap-xxhdpi\\kitkat.png"
+    },
+    {
+        "merged": "com.example.kitkat.app-merged_res-19:/mipmap-xxhdpi_kitkat.png.flat",
+        "source": "com.example.kitkat.app-main-12:/mipmap-xxhdpi/kitkat.png"
+    },
+    {
+        "merged": "com.example.kitkat.app-merged_res-19:/mipmap-hdpi_kitkat.png.flat",
+        "source": "com.example.kitkat.app-main-12:/mipmap-hdpi/kitkat.png"
+    },
+    {
+        "merged": "C:\\Users\\Delwin\\.gradle\\daemon\\7.5\\com.example.kitkat.app-merged_res-19:\\mipmap-xxxhdpi_kitkat.png.flat",
+        "source": "C:\\Users\\Delwin\\.gradle\\daemon\\7.5\\com.example.kitkat.app-main-12:\\mipmap-xxxhdpi\\kitkat.png"
+    },
+    {
+        "merged": "C:\\Users\\Delwin\\.gradle\\daemon\\7.5\\com.example.kitkat.app-merged_res-19:\\drawable-xxxhdpi_kitkat_img.png.flat",
+        "source": "C:\\Users\\Delwin\\.gradle\\daemon\\7.5\\com.example.kitkat.app-main-12:\\drawable-xxxhdpi\\kitkat_img.png"
+    },
+    {
+        "merged": "C:\\Users\\Delwin\\.gradle\\daemon\\7.5\\com.example.kitkat.app-merged_res-19:\\drawable-xhdpi_kitkat_img.png.flat",
+        "source": "C:\\Users\\Delwin\\.gradle\\daemon\\7.5\\com.example.kitkat.app-main-12:\\drawable-xhdpi\\kitkat_img.png"
+    },
+    {
+        "merged": "C:\\Users\\Delwin\\.gradle\\daemon\\7.5\\com.example.kitkat.app-merged_res-19:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Delwin\\.gradle\\daemon\\7.5\\com.example.kitkat.app-main-12:\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "com.example.kitkat.app-merged_res-19:/mipmap-xhdpi_kitkat.png.flat",
+        "source": "com.example.kitkat.app-main-12:/mipmap-xhdpi/kitkat.png"
+    }
+]
