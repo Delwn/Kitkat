@@ -12,31 +12,31 @@
 12         to allow setting breakpoints, to provide hot reload, etc.
 13    -->
 14    <uses-permission android:name="android.permission.INTERNET" />
-14-->G:\Codes\Flutter\kitkat\android\app\src\debug\AndroidManifest.xml:6:5-66
-14-->G:\Codes\Flutter\kitkat\android\app\src\debug\AndroidManifest.xml:6:22-64
+14-->E:\Codes\Flutter\kitkat\android\app\src\debug\AndroidManifest.xml:6:5-66
+14-->E:\Codes\Flutter\kitkat\android\app\src\debug\AndroidManifest.xml:6:22-64
 15    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-15-->G:\Codes\Flutter\kitkat\android\app\src\main\AndroidManifest.xml:3:5-80
-15-->G:\Codes\Flutter\kitkat\android\app\src\main\AndroidManifest.xml:3:22-78
+15-->E:\Codes\Flutter\kitkat\android\app\src\main\AndroidManifest.xml:3:5-80
+15-->E:\Codes\Flutter\kitkat\android\app\src\main\AndroidManifest.xml:3:22-78
 16    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- For apps with targetSDK=31 (Android 12) -->
-16-->G:\Codes\Flutter\kitkat\android\app\src\main\AndroidManifest.xml:4:5-67
-16-->G:\Codes\Flutter\kitkat\android\app\src\main\AndroidManifest.xml:4:22-65
+16-->E:\Codes\Flutter\kitkat\android\app\src\main\AndroidManifest.xml:4:5-67
+16-->E:\Codes\Flutter\kitkat\android\app\src\main\AndroidManifest.xml:4:22-65
 17    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
-17-->G:\Codes\Flutter\kitkat\android\app\src\main\AndroidManifest.xml:6:5-78
-17-->G:\Codes\Flutter\kitkat\android\app\src\main\AndroidManifest.xml:6:22-76
+17-->E:\Codes\Flutter\kitkat\android\app\src\main\AndroidManifest.xml:6:5-78
+17-->E:\Codes\Flutter\kitkat\android\app\src\main\AndroidManifest.xml:6:22-76
 18    <uses-permission android:name="android.permission.VIBRATE" />
-18-->[:flutter_local_notifications] G:\Codes\Flutter\kitkat\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-66
-18-->[:flutter_local_notifications] G:\Codes\Flutter\kitkat\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-63
+18-->[:flutter_local_notifications] E:\Codes\Flutter\kitkat\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-66
+18-->[:flutter_local_notifications] E:\Codes\Flutter\kitkat\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-63
 19    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
-19-->[:flutter_local_notifications] G:\Codes\Flutter\kitkat\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-81
-19-->[:flutter_local_notifications] G:\Codes\Flutter\kitkat\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-78
+19-->[:flutter_local_notifications] E:\Codes\Flutter\kitkat\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-81
+19-->[:flutter_local_notifications] E:\Codes\Flutter\kitkat\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-78
 20    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
-20-->[:flutter_local_notifications] G:\Codes\Flutter\kitkat\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:13:5-77
-20-->[:flutter_local_notifications] G:\Codes\Flutter\kitkat\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:13:22-74
+20-->[:flutter_local_notifications] E:\Codes\Flutter\kitkat\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:13:5-77
+20-->[:flutter_local_notifications] E:\Codes\Flutter\kitkat\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:13:22-74
 21
 22    <application
 23        android:name="android.app.Application"
 24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-24-->[androidx.core:core:1.6.0] C:\Users\Delwin\.gradle\caches\transforms-3\b0ca6b052086e963866e739d1b4f8bfa\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+24-->[androidx.core:core:1.6.0] C:\Users\sgeor\.gradle\caches\transforms-3\b0ca6b052086e963866e739d1b4f8bfa\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
 25        android:debuggable="true"
 26        android:icon="@mipmap/kitkat"
 27        android:label="kitkat" >
@@ -54,8 +54,8 @@
 39            android:exported="false" >
 40            <intent-filter>
 41                <action android:name="android.intent.action.BOOT_COMPLETED" />
-41-->[:flutter_local_notifications] G:\Codes\Flutter\kitkat\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:26:17-79
-41-->[:flutter_local_notifications] G:\Codes\Flutter\kitkat\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:26:25-76
+41-->[:flutter_local_notifications] E:\Codes\Flutter\kitkat\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:26:17-79
+41-->[:flutter_local_notifications] E:\Codes\Flutter\kitkat\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:26:25-76
 42            </intent-filter>
 43        </receiver>
 44
@@ -93,52 +93,52 @@
 76            android:value="2" />
 77
 78        <receiver
-78-->[:flutter_local_notifications] G:\Codes\Flutter\kitkat\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-18:40
+78-->[:flutter_local_notifications] E:\Codes\Flutter\kitkat\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-18:40
 79            android:name="com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver"
-79-->[:flutter_local_notifications] G:\Codes\Flutter\kitkat\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-91
+79-->[:flutter_local_notifications] E:\Codes\Flutter\kitkat\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-91
 80            android:exported="false" />
-80-->[:flutter_local_notifications] G:\Codes\Flutter\kitkat\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-37
+80-->[:flutter_local_notifications] E:\Codes\Flutter\kitkat\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-37
 81        <receiver
-81-->[:flutter_local_notifications] G:\Codes\Flutter\kitkat\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:19:9-21:40
+81-->[:flutter_local_notifications] E:\Codes\Flutter\kitkat\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:19:9-21:40
 82            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
-82-->[:flutter_local_notifications] G:\Codes\Flutter\kitkat\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-97
+82-->[:flutter_local_notifications] E:\Codes\Flutter\kitkat\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-97
 83            android:exported="false" />
-83-->[:flutter_local_notifications] G:\Codes\Flutter\kitkat\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-37
+83-->[:flutter_local_notifications] E:\Codes\Flutter\kitkat\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-37
 84        <receiver
-84-->[:flutter_local_notifications] G:\Codes\Flutter\kitkat\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:22:9-31:20
+84-->[:flutter_local_notifications] E:\Codes\Flutter\kitkat\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:22:9-31:20
 85            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
-85-->[:flutter_local_notifications] G:\Codes\Flutter\kitkat\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-101
+85-->[:flutter_local_notifications] E:\Codes\Flutter\kitkat\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-101
 86            android:exported="false" >
-86-->[:flutter_local_notifications] G:\Codes\Flutter\kitkat\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-37
+86-->[:flutter_local_notifications] E:\Codes\Flutter\kitkat\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-37
 87            <intent-filter>
-87-->[:flutter_local_notifications] G:\Codes\Flutter\kitkat\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:25:13-30:29
+87-->[:flutter_local_notifications] E:\Codes\Flutter\kitkat\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:25:13-30:29
 88                <action android:name="android.intent.action.BOOT_COMPLETED" />
-88-->[:flutter_local_notifications] G:\Codes\Flutter\kitkat\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:26:17-79
-88-->[:flutter_local_notifications] G:\Codes\Flutter\kitkat\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:26:25-76
+88-->[:flutter_local_notifications] E:\Codes\Flutter\kitkat\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:26:17-79
+88-->[:flutter_local_notifications] E:\Codes\Flutter\kitkat\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:26:25-76
 89                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
-89-->[:flutter_local_notifications] G:\Codes\Flutter\kitkat\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:27:17-84
-89-->[:flutter_local_notifications] G:\Codes\Flutter\kitkat\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:27:25-81
+89-->[:flutter_local_notifications] E:\Codes\Flutter\kitkat\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:27:17-84
+89-->[:flutter_local_notifications] E:\Codes\Flutter\kitkat\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:27:25-81
 90                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
-90-->[:flutter_local_notifications] G:\Codes\Flutter\kitkat\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:28:17-82
-90-->[:flutter_local_notifications] G:\Codes\Flutter\kitkat\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:28:25-79
+90-->[:flutter_local_notifications] E:\Codes\Flutter\kitkat\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:28:17-82
+90-->[:flutter_local_notifications] E:\Codes\Flutter\kitkat\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:28:25-79
 91                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
-91-->[:flutter_local_notifications] G:\Codes\Flutter\kitkat\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:29:17-82
-91-->[:flutter_local_notifications] G:\Codes\Flutter\kitkat\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:29:25-79
+91-->[:flutter_local_notifications] E:\Codes\Flutter\kitkat\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:29:17-82
+91-->[:flutter_local_notifications] E:\Codes\Flutter\kitkat\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:29:25-79
 92            </intent-filter>
 93        </receiver>
 94
 95        <uses-library
-95-->[androidx.window:window:1.0.0-beta04] C:\Users\Delwin\.gradle\caches\transforms-3\a59fddb7a7efb37e5b0fffe5743938c9\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+95-->[androidx.window:window:1.0.0-beta04] C:\Users\sgeor\.gradle\caches\transforms-3\a59fddb7a7efb37e5b0fffe5743938c9\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
 96            android:name="androidx.window.extensions"
-96-->[androidx.window:window:1.0.0-beta04] C:\Users\Delwin\.gradle\caches\transforms-3\a59fddb7a7efb37e5b0fffe5743938c9\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+96-->[androidx.window:window:1.0.0-beta04] C:\Users\sgeor\.gradle\caches\transforms-3\a59fddb7a7efb37e5b0fffe5743938c9\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
 97            android:required="false" />
-97-->[androidx.window:window:1.0.0-beta04] C:\Users\Delwin\.gradle\caches\transforms-3\a59fddb7a7efb37e5b0fffe5743938c9\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+97-->[androidx.window:window:1.0.0-beta04] C:\Users\sgeor\.gradle\caches\transforms-3\a59fddb7a7efb37e5b0fffe5743938c9\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
 98        <uses-library
-98-->[androidx.window:window:1.0.0-beta04] C:\Users\Delwin\.gradle\caches\transforms-3\a59fddb7a7efb37e5b0fffe5743938c9\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+98-->[androidx.window:window:1.0.0-beta04] C:\Users\sgeor\.gradle\caches\transforms-3\a59fddb7a7efb37e5b0fffe5743938c9\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
 99            android:name="androidx.window.sidecar"
-99-->[androidx.window:window:1.0.0-beta04] C:\Users\Delwin\.gradle\caches\transforms-3\a59fddb7a7efb37e5b0fffe5743938c9\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+99-->[androidx.window:window:1.0.0-beta04] C:\Users\sgeor\.gradle\caches\transforms-3\a59fddb7a7efb37e5b0fffe5743938c9\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
 100            android:required="false" />
-100-->[androidx.window:window:1.0.0-beta04] C:\Users\Delwin\.gradle\caches\transforms-3\a59fddb7a7efb37e5b0fffe5743938c9\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+100-->[androidx.window:window:1.0.0-beta04] C:\Users\sgeor\.gradle\caches\transforms-3\a59fddb7a7efb37e5b0fffe5743938c9\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
 101    </application>
 102
 103</manifest>
