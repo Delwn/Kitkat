@@ -218,6 +218,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "flutter_neumorphic",
+      "rootUri": "file:///C:/Users/sgeor/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_neumorphic-3.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "flutter_test",
       "rootUri": "file:///E:/flutter/packages/flutter_test",
       "packageUri": "lib/",
@@ -596,7 +602,7 @@
       "languageVersion": "2.16"
     }
   ],
-  "generated": "2023-04-08T09:43:46.961311Z",
+  "generated": "2023-04-08T14:57:51.457744Z",
   "generator": "pub",
   "generatorVersion": "2.19.2"
 }

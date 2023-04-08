@@ -7,13 +7,17 @@ class KitKatProvider with ChangeNotifier {
   late Box box;
   int curr = 0;
   int kitkatAlarmID = 0;
-  int currentCycleDays = 0;
+  int currentCycleDays = 28;
+  DateTime previousDate = DateTime.now(), nextDate = DateTime.now();
 
   KitKatProvider() {
     initBox();
   }
 
   int get getCurr => curr;
+  DateTime get getPreviousDate => previousDate;
+  DateTime get getNextDate => nextDate;
+  int get getCurrentCycleDays => currentCycleDays;
 
   initBox() async {
     await Hive.initFlutter();
@@ -55,6 +59,24 @@ class KitKatProvider with ChangeNotifier {
     DateTime to = box.get('next_date');
     curr = daysBetween(from, to);
     // print("curr is $curr");
+    if (curr < 0) {
+      box.put('prev_date', to);
+      previousDate = to;
+      to = to.add(const Duration(days: 30));
+      box.put('next_date', to);
+      to = box.get('next_date');
+      nextDate = to;
+      curr = daysBetween(from, to);
+    }
+
+    // if (inputDate?.isAfter(DateTime.now()) ?? false) {
+    //   DateTime prev = box.get('next_date');
+    //   previousDate = prev;
+    //   box.put('next_date', inputDate);
+    //   box.put('prev_date', prev);
+    //   nextDate = inputDate ?? prev;
+    // }
+
     if (curr <= 2) {
       NotificationService()
           .showNotification(2, 'Kitkat', 'You get a kitkat in $curr days');
@@ -78,7 +100,11 @@ class KitKatProvider with ChangeNotifier {
       box.put('next_date', DateTime.now().add(const Duration(days: 30)));
     }
     if (inputDate != null) {
+      DateTime to = box.get('next_date');
+      box.put('prev_date', to);
+      previousDate = to;
       box.put('next_date', inputDate);
+      nextDate = inputDate;
     }
     var days = box.get('days') ?? DateTime.now().day;
     // print('Counter->initializeDays Days: $days');
@@ -99,8 +125,10 @@ class KitKatProvider with ChangeNotifier {
   }
 
   void changeCycle(int value) {
+    print("Value: $value");
     box.put('cycle_days', value);
     currentCycleDays = value;
+    print('Current cycle days: $currentCycleDays');
     notifyListeners();
   }
 

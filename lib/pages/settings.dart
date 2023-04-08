@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_neumorphic/flutter_neumorphic.dart';
 import 'package:numberpicker/numberpicker.dart';
 import 'package:provider/provider.dart';
 import '../main.dart';
 import '../provider/provider.dart';
+import '../support/days_card.dart';
 
 class SettingsScreen extends StatefulWidget {
   @override
@@ -10,13 +12,8 @@ class SettingsScreen extends StatefulWidget {
 }
 
 class _SettingsScreenState extends State<SettingsScreen> {
-  late int currentCycleDays;
-
   @override
   void initState() {
-    var kitKatProvider = Provider.of<KitKatProvider>(context);
-    kitKatProvider.getCurrentValue();
-    setState(() {});
     super.initState();
   }
 
@@ -24,9 +21,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
   Widget build(BuildContext context) {
     var kitKatProvider = Provider.of<KitKatProvider>(context);
     return Container(
-      decoration: const BoxDecoration(
-        color: Color.fromARGB(255, 255, 255, 255),
-      ),
+      decoration: BoxDecoration(color: Colors.grey[300]),
       child: Scaffold(
         backgroundColor: Colors.transparent,
         appBar: AppBar(
@@ -39,43 +34,12 @@ class _SettingsScreenState extends State<SettingsScreen> {
             mainAxisAlignment: MainAxisAlignment.start,
             children: <Widget>[
               Padding(
-                padding: const EdgeInsets.only(left: 10, right: 10),
-                child: Container(
-                  padding: const EdgeInsets.only(left: 20, right: 20),
-                  decoration: const BoxDecoration(
-                      color: Color.fromARGB(255, 255, 255, 255),
-                      borderRadius: BorderRadius.all(Radius.circular(50)),
-                      boxShadow: [
-                        BoxShadow(
-                          color: Colors.grey,
-                          offset: Offset(10, 10),
-                          blurRadius: 6,
-                          spreadRadius: 1,
-                        ),
-                        BoxShadow(
-                          color: Colors.white12,
-                          offset: Offset(-10, -10),
-                          blurRadius: 6,
-                          spreadRadius: 1,
-                        )
-                      ]),
-                  child: Row(
-                    children: <Widget>[
-                      const Text(
-                        'Cycle days',
-                        style: TextStyle(color: Colors.black),
-                      ),
-                      NumberPicker(
-                          minValue: 20,
-                          maxValue: 35,
-                          value: currentCycleDays,
-                          onChanged: (value) {
-                            kitKatProvider.changeCycle(value);
-                          })
-                    ],
-                  ),
-                ),
-              )
+                padding: const EdgeInsets.only(left: 10, right: 10, top: 80),
+                child: DaysCard(kitKatProvider: kitKatProvider),
+              ),
+              const SizedBox(
+                height: 20,
+              ),
             ],
           ),
         ),

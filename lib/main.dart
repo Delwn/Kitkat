@@ -25,7 +25,9 @@ class MyApp extends StatelessWidget {
       create: (context) => KitKatProvider(),
       child: MaterialApp(
         title: 'KitKat v1.0',
-        theme: ThemeData.dark(),
+        theme: ThemeData(
+          appBarTheme: const AppBarTheme(foregroundColor: Colors.black38),
+        ),
         home: const MyHomePage(title: 'KitKat'),
         debugShowCheckedModeBanner: false,
       ),

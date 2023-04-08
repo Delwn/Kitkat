@@ -21,7 +21,6 @@ class MyHomePageState extends State<MyHomePage> {
 
   @override
   void didChangeDependencies() {
-    print("HERE......... !!!!!!!!!!!!!!!!!");
     var kitKatProvider = Provider.of<KitKatProvider>(context);
     super.didChangeDependencies();
   }
