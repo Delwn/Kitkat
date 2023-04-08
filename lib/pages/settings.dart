@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_neumorphic/flutter_neumorphic.dart';
+import 'package:kitkat/support/notification_card.dart';
 import 'package:numberpicker/numberpicker.dart';
 import 'package:provider/provider.dart';
 import '../main.dart';
 import '../provider/provider.dart';
 import '../support/days_card.dart';
+import '../support/dcheckbox.dart';
 
 class SettingsScreen extends StatefulWidget {
   @override
@@ -32,14 +34,40 @@ class _SettingsScreenState extends State<SettingsScreen> {
         body: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.start,
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[
               Padding(
                 padding: const EdgeInsets.only(left: 10, right: 10, top: 80),
                 child: DaysCard(kitKatProvider: kitKatProvider),
               ),
               const SizedBox(
-                height: 20,
+                height: 50,
               ),
+              Padding(
+                padding: const EdgeInsets.only(left: 40),
+                child: Row(
+                  children: [
+                    const Text(
+                      "Enable notifications",
+                      style: TextStyle(
+                          fontFamily: 'Poppins', color: Colors.black38),
+                    ),
+                    const SizedBox(
+                      width: 0,
+                    ),
+                    DCheckBox(kitKatProvider: kitKatProvider),
+                  ],
+                ),
+              ),
+              const SizedBox(
+                height: 10,
+              ),
+              Padding(
+                padding: const EdgeInsets.only(left: 10, right: 10),
+                child: NotificationDaysCard(
+                  kitKatProvider: kitKatProvider,
+                ),
+              )
             ],
           ),
         ),

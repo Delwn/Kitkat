@@ -9,6 +9,8 @@ class KitKatProvider with ChangeNotifier {
   int kitkatAlarmID = 0;
   int currentCycleDays = 28;
   DateTime previousDate = DateTime.now(), nextDate = DateTime.now();
+  bool notificationsEnabled = true;
+  int notifyDays = 2;
 
   KitKatProvider() {
     initBox();
@@ -18,6 +20,8 @@ class KitKatProvider with ChangeNotifier {
   DateTime get getPreviousDate => previousDate;
   DateTime get getNextDate => nextDate;
   int get getCurrentCycleDays => currentCycleDays;
+  bool get getNotificationStatus => notificationsEnabled;
+  int get getNotifyDays => notifyDays;
 
   initBox() async {
     await Hive.initFlutter();
@@ -32,6 +36,9 @@ class KitKatProvider with ChangeNotifier {
       startAt: DateTime(
           DateTime.now().year, DateTime.now().month, DateTime.now().day, 0, 0),
     );
+
+    notifyDays = box.get('notify_days') ?? 2;
+    notificationsEnabled = box.get('notification_status') ?? true;
     count();
     print("Count completed....");
   }
@@ -77,7 +84,7 @@ class KitKatProvider with ChangeNotifier {
     //   nextDate = inputDate ?? prev;
     // }
 
-    if (curr <= 2) {
+    if (curr <= notifyDays) {
       NotificationService()
           .showNotification(2, 'Kitkat', 'You get a kitkat in $curr days');
     }
@@ -138,6 +145,18 @@ class KitKatProvider with ChangeNotifier {
       box.put('cycle_days', '30');
       currentCycleDays = 30;
     }
+    notifyListeners();
+  }
+
+  void changeNotificationStatus(bool status) {
+    notificationsEnabled = status;
+    box.put('notification_status', notificationsEnabled);
+    notifyListeners();
+  }
+
+  void changeNotifyDays(int value) {
+    notifyDays = value;
+    box.put('notify_days', notifyDays);
     notifyListeners();
   }
 }
