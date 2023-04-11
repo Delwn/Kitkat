@@ -20,4 +20,4 @@ $ flutter build apk --release
 
 ##Screenshots
 
-![HomePage](https://github.com/Delwn/Kitkat/blob/master/screenshots/HomePage.jpg)
+![HomePage](https://github.com/Delwn/Kitkat/blob/master/screenshots/HomePage.jpg) ![Settigs Page](https://github.com/Delwn/Kitkat/blob/master/screenshots/SettingsPage.jpg)
