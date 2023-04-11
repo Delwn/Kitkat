@@ -3,19 +3,21 @@
 
 
 ## Installing
-#### From apk
-Navigate to "build/app/outputs/flutter-apk/" and find file named app-release.apk, install the file to use the application.
 
-#### Debugging the application
+### Building the apk file using Flutter SDK
+Requires flutter SDK and android studio to be installed.
 1. Clone this repository.
 2. Open the directory in terminal
-3. Run commands
+3. Run commands below to run application in debug mode
 ```
 $ flutter pub get
 $ flutter run lib/main.dart
 ```
-4. To create new build run
+4. To create apk file run
 ``` 
 $ flutter build apk --release 
 ```
+
+##Screenshots
+
 
