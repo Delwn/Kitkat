@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.kitkat"
     android:versionCode="1"
-    android:versionName="1.0.0" >
+    android:versionName="1.2.0" >
 
     <uses-sdk
         android:minSdkVersion="16"
@@ -24,7 +24,7 @@
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
         android:icon="@mipmap/kitkat"
-        android:label="kitkat" >
+        android:label="Kitkat" >
         <service
             android:name="dev.fluttercommunity.plus.androidalarmmanager.AlarmService"
             android:exported="false"

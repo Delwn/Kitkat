@@ -2,7 +2,7 @@
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="com.example.kitkat"
 4    android:versionCode="1"
-5    android:versionName="1.0.0" >
+5    android:versionName="1.2.0" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="16"
@@ -39,7 +39,7 @@
 24-->[androidx.core:core:1.6.0] C:\Users\sgeor\.gradle\caches\transforms-3\b0ca6b052086e963866e739d1b4f8bfa\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
 25        android:debuggable="true"
 26        android:icon="@mipmap/kitkat"
-27        android:label="kitkat" >
+27        android:label="Kitkat" >
 28        <service
 29            android:name="dev.fluttercommunity.plus.androidalarmmanager.AlarmService"
 30            android:exported="false"

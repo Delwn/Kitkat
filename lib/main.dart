@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:android_alarm_manager_plus/android_alarm_manager_plus.dart';
 import 'package:kitkat/pages/homepage.dart';
+import 'package:kitkat/pages/neu_homepage.dart';
 import 'package:kitkat/provider/provider.dart';
 import 'components/notification_service.dart';
 import 'package:provider/provider.dart';
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           appBarTheme: const AppBarTheme(foregroundColor: Colors.black38),
         ),
-        home: const MyHomePage(title: 'KitKat'),
+        home: const NeuHomePage(title: 'KitKat'),
         debugShowCheckedModeBanner: false,
       ),
     );

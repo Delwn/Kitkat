@@ -39,9 +39,19 @@ class NotificationDaysCard extends StatelessWidget {
           ]),
       child: Row(
         children: <Widget>[
-          const Text(
-            'Notify before',
-            style: TextStyle(color: Colors.black38, fontFamily: 'Poppins'),
+          Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: const [
+              Text(
+                'Notify before',
+                style: TextStyle(color: Colors.black38, fontFamily: 'Poppins'),
+              ),
+              Text(
+                " days",
+                style: TextStyle(color: Colors.black38, fontFamily: 'Poppins'),
+              )
+            ],
           ),
           SliderTheme(
             data: SliderThemeData(
@@ -65,10 +75,6 @@ class NotificationDaysCard extends StatelessWidget {
                 fontFamily: 'Rubik',
                 fontWeight: FontWeight.bold),
           ),
-          const Text(
-            " days",
-            style: TextStyle(color: Colors.black38, fontFamily: 'Poppins'),
-          )
         ],
       ),
     );

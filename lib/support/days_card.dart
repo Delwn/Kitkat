@@ -68,7 +68,7 @@ class DaysCard extends StatelessWidget {
           // ),
           Text(
             kitKatProvider.getCurrentCycleDays.toString(),
-            style: const TextStyle(color: Colors.black38, fontFamily: 'Rubik'),
+            style: const TextStyle(color: Colors.purple, fontFamily: 'Rubik'),
           )
           // NumberPicker(
           //     minValue: 0,
