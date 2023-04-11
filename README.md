@@ -1,16 +1,21 @@
-# kitkat
+# KitKat
+##### An application to track physiological cycles.
 
-A new Flutter project.
 
-## Getting Started
+## Installing
+#### From apk
+Navigate to "build/app/outputs/flutter-apk/" and find file named app-release.apk, install the file to use the application.
 
-This project is a starting point for a Flutter application.
+#### Debugging the application
+1. Clone this repository.
+2. Open the directory in terminal
+3. Run commands
+```
+$ flutter pub get
+$ flutter run lib/main.dart
+```
+4. To create new build run
+``` 
+$ flutter build apk --release 
+```
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
