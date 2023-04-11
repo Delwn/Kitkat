@@ -20,4 +20,4 @@ $ flutter build apk --release
 
 ##Screenshots
 
-![HomePage]("/screenshots/Home Page.jpg")
+![HomePage](https://github.com/Delwn/Kitkat/blob/master/screenshots/HomePage.jpg)
