@@ -1,5 +1,5 @@
 # KitKat
-##### An application to track physiological cycles.
+##### A Flutter based application to track physiological cycles.
 
 
 ## Installing
