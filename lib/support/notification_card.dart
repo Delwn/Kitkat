@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_neumorphic/flutter_neumorphic.dart';
 import 'package:kitkat/support/slider_gradient.dart';
 import '../provider/provider.dart';
 

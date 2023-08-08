@@ -1,4 +1,3 @@
-import 'package:blurrycontainer/blurrycontainer.dart';
 import 'package:flutter/material.dart';
 import 'package:kitkat/pages/settings.dart';
 import 'package:kitkat/provider/provider.dart';
@@ -58,20 +57,13 @@ class MyHomePageState extends State<MyHomePage> {
               Stack(
                 alignment: Alignment.center,
                 children: [
-                  BlurryContainer(
-                    blur: 0,
-                    height: 150,
-                    width: 150,
-                    color: Colors.transparent,
-                    borderRadius: const BorderRadius.all(Radius.circular(100)),
-                    child: Center(
-                      child: Text(
-                        kitKatProvider.getCurr.toString(),
-                        style: const TextStyle(
-                            fontFamily: 'Rubik',
-                            fontSize: 80,
-                            color: Color.fromARGB(255, 240, 238, 243)),
-                      ),
+                  Center(
+                    child: Text(
+                      kitKatProvider.getCurr.toString(),
+                      style: const TextStyle(
+                          fontFamily: 'Rubik',
+                          fontSize: 80,
+                          color: Color.fromARGB(255, 240, 238, 243)),
                     ),
                   ),
                 ],

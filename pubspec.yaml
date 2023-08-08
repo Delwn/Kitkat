@@ -18,7 +18,7 @@ publish_to: "none" # Remove this line if you wish to publish to pub.dev
 version: 1.2.0+1
 
 environment:
-  sdk: ">=2.16.0-134.1.beta <3.0.0"
+  sdk: ">=3.0.3 <4.0.0"
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -39,12 +39,11 @@ dependencies:
   hive_flutter: ^1.1.0
   hive_generator: ^2.0.0
   flutter_local_notifications: ^13.0.0
-  blurrycontainer: 1.0.2
   flutter_launcher_icons: ^0.11.0
   numberpicker: ^2.1.1
   provider: ^6.0.5
-  flutter_neumorphic: ^3.2.0
   flutter_inset_box_shadow: ^1.0.8
+  dependency_validator: ^3.2.2
 
 dev_dependencies:
   flutter_test:

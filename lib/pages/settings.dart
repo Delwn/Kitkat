@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_neumorphic/flutter_neumorphic.dart';
 import 'package:kitkat/support/notification_card.dart';
-import 'package:numberpicker/numberpicker.dart';
 import 'package:provider/provider.dart';
-import '../main.dart';
 import '../provider/provider.dart';
 import '../support/days_card.dart';
 import '../support/dcheckbox.dart';

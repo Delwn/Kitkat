@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:android_alarm_manager_plus/android_alarm_manager_plus.dart';
-import 'package:kitkat/pages/homepage.dart';
 import 'package:kitkat/pages/neu_homepage.dart';
 import 'package:kitkat/provider/provider.dart';
 import 'components/notification_service.dart';
