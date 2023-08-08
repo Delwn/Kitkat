@@ -1,5 +1,5 @@
 # KitKat
-##### An application to track physiological cycles.
+##### A Flutter based application to track physiological cycles.
 
 
 ## Installing
@@ -20,4 +20,4 @@ $ flutter build apk --release
 
 ##Screenshots
 
-![HomePage]("/screenshots/Home Page.jpg")
+![HomePage](https://github.com/Delwn/Kitkat/blob/master/screenshots/HomePage.jpg) ![Settigs Page](https://github.com/Delwn/Kitkat/blob/master/screenshots/SettingsPage.jpg)

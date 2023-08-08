@@ -86,7 +86,7 @@ class KitKatProvider with ChangeNotifier {
 
     if (curr <= notifyDays) {
       NotificationService()
-          .showNotification(2, 'Kitkat', 'You get a kitkat in $curr days');
+          .showNotification(2, 'Kitkat', 'Your cycle ends in $curr days');
     }
     // print('Hello');
     box.put('days', curr);
